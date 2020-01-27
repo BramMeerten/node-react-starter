@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es2019",
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "build",
+    "rootDir": "src",
+
+    /* Strict Type-Checking Options */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+
+    /* Additional Checks */
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+     "noFallthroughCasesInSwitch": true,
+
+    /* Advanced Options */
+    "forceConsistentCasingInFileNames": true
+  }
+}
