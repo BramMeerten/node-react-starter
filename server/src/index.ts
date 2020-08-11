@@ -11,5 +11,5 @@ app.get(`${BASE_PATH}/hello`, (req: any, res: any) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Doc Editor is listening on port ${PORT}`);
+  console.log(`Listening on port ${PORT}`);
 });
